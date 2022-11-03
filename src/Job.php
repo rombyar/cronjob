@@ -67,7 +67,7 @@ class Job
      *
      * @var string
      */
-    protected string $name;
+    protected ?string $name = NULL;
 
     /**
      * @param mixed  $action
